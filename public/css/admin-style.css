@@ -1,0 +1,103 @@
+a.admin-logo-title {
+    color: white;
+}
+
+a.admin-logo-title:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.slider-cbp-item {
+    position: relative;
+}
+
+.slider-cbp-item img {
+    width: 100%;
+}
+
+.slider-div-block {
+    margin-bottom: 42px;
+    cursor: pointer;
+}
+
+.slider-div:hover .slider-overlay {
+    -webkit-visibility: visible !important;
+    visibility: visible !important;
+    animation-name: slideInUp;
+    animation-duration: .2s;
+}
+
+.slider-overlay {
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    background-color: rgb(23, 23, 23);
+    width: 100%;
+    height: 100%;
+}
+
+.slider-overlay button,
+.slider-overlay a {
+    visibility: hidden;
+    margin-top: 15%;
+}
+
+.slider-div:hover .slider-overlay button,
+.slider-div:hover .slider-overlay a {
+    -webkit-visibility: visible !important;
+    visibility: visible !important;
+    animation-name: fadeInUp;
+    animation-duration: .6s;
+}
+
+.slider-div-block-title {
+    padding: 8px 0px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.slider-div-container {
+    min-height: 100vh !important;
+}
+
+.price-list-group {
+    padding: 0px;
+}
+
+.price-list-group li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.tour_image_div {
+    /*width: 400px;*/
+}
+
+.tour_image_div > img {
+	width: 100%;
+}
+
+.member_div {
+    margin-bottom: 40px;
+    min-height: 412px !important;
+
+}
+.member_div .mt-img img {
+    width: 150px;
+    height: 150px;
+}
+
+.homepictures-block {
+    height: 175px !important;
+    overflow: hidden;
+}
+
+label.error {
+	color: red;
+	padding-top: 5px;
+}
+
+.errorTxt {
+    color: red;
+}
